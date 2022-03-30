@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+.test {
+    color: rgb(109, 143, 255);
+}
+
+/* ------------- LOGIN PAGE -------------------*/
+
+.title_login {
+	text-align: center;
+	font-size: 70pt;
+	
+	font-weight: bold;
+  	font-family: 'Bradley Hand', 'cursive';
+
+	
+	margin-top: 20px;
+	
+	color: lightyellow;
+	
+	
+}
+
+.body_login {
+	background: url("/images/backgrounds/loginBG.png") 
+				no-repeat
+				center 
+				center fixed;
+	background-size: cover;
+	
+}
+
+/* --------------------- CREATE ------------------------ */
+
+.body_create {
+	background: url("/images/backgrounds/createBG.jpeg")
+				no-repeat
+				center 
+				center fixed;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title_create{
+	text-align: center;
+	font-size: 60pt;
+	text-decoration: underline;
+	font-weight: bold;
+  	font-family: 'Bradley Hand', 'cursive';
+
+	margin-top: 0px;
+	padding: 40px;
+	
+	width:1000px;
+	height: 150px;
+	
+	
+	
+	color: lightyellow;
+	background-color: #a2cddc;
+}
+
+.form_create_container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	background-color: rgba(108, 122, 137, 0.8);
+	
+	padding: 30px;
+	margin-top: 50px;
+	
+	outline: 2px solid green;
+}
+
+.form_create{
+	display: flex;
+/* 	flex-direction: column; */
+	justify-content: space-between;
+	align-items: center;
+	
+/* 	background-color: gray;
+ */	
+	height: 200px;
+	width: 900px;
+	
+/* 	padding: 10px 10px;
+ */	margin-top: 17px;
+	
+/* 	outline: 20px solid red;
+ */	
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+/* ------------------- HOME/Play? ----------------------- */
+
+.body_home {
+	background: url("/images/backgrounds/louis2BG.jpg")
+ 				no-repeat
+				center
+				center fixed;
+	background-size: cover;
+	
+
+}
+
+.hud {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	
+	padding: 50px;
+	
+/* 	outline: 5px solid red;
+ */}
+
+.status {
+	
+	padding: 10px;
+	
+	background-color: rgba(108, 122, 137, 0.8);
+}
+
+.bars{
+	color: white;
+}
+
+.inventory{
+	padding-top: 20px;
+}
+
+.pet_name{
+	font-size: 60pt;
+	text-align: center;
+	
+	width: 500px;
+/* 	height: 100px;
+ */	text-align: center;
+	
+/*  	background-color: rgba(108, 122, 137, 0.8);	
+ */ }
+
+.body_nav_container {
+	display: flex;
+	justify-content: space-around;
+	
+	
+	width: auto;
+	
+	background-color: rgba(108, 122, 137, 0.8);	
+	
+	
+}
+
+.body_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 700px;
+/* 	height: 100px;
+ */ 	padding: 20px 15px;
+ 
+/* 	background-color: rgba(108, 122, 137, 0.8);	
+ *//* 	outline: 10px solid purple;
+ */}
+.body_nav_play {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 600px;
+/* 	height: 100px;
+ */ 	padding: 20px 15px;
+ 
+/* 	background-color: rgba(108, 122, 137, 0.8);	
+ *//* 	outline: 10px solid purple;
+ */}
+
+
+
+.img_home {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    animation-name: bed;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes bed {
+      0%   {left: -50px; top:150px;}
+      10%  {left: -50px; top:150px;}
+      15%  {left: -10px; top:-40px;}
+      20%  {left: -10px; top:-40px;}
+      25%  {left: 100px; top:-40px;}
+      30%  {left: 100px; top:-40px;}
+      35%  {left: 150px; top:-50px;}
+      40%  {left: 100px; top:-40px;}
+      45%  {left: 80px;  top:-40px;}    
+      50%  {left: 80px; top:150px;}
+      55%  {left: 150px; top:150px;}
+      60%  {left: 130px; top:150px;}
+      70%  {left: 280px; top:150px;}
+      75%  {left: 730px; top:150px;}
+      80%  {left: 850px; top: -25px;}
+      85%  {left: 880px; top: -25px;}
+      90%  {left: 880px; top: -25px;}
+      100% {left: 750px; top:150px;}
+}
+
+.body_play {
+
+	background: url("/images/backgrounds/outside.jpeg")
+ 				no-repeat
+				center
+				center fixed;
+	background-size: cover;
+}
+
+.img_play {
+	   margin: 5px;
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    animation-name: play;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes play {
+      0%   {left: -50px; top:150px;}
+      10%  {left: -50px; top:150px;}
+      15%  {left: -10px; top:140px;}
+      20%  {left: -30px; top:140px;}
+      25%  {left: 100px; top:100px;}
+      30%  {left: 100px; top:90px;}
+      35%  {left: 320px; top:150px;}
+      40%  {left: 440px; top:140px;}
+      45%  {left: 580px;  top:140px;}    
+      50%  {left: 980px; top:150px;}
+      55%  {left: 650px; top:130px;}
+      60%  {left: 530px; top:130px;}
+      70%  {left: 280px; top:125px;}
+      75%  {left: 430px; top:150px;}
+      80%  {left: 350px; top: 125px;}
+      85%  {left: 280px; top: 155px;}
+      90%  {left: 180px; top: 145px;}
+      100% {left: -50px; top:150px;}
+}
+
+/* ------------- STORE ---------------------- */
+
+.body_store {
+	background: url("/images/backgrounds/storeBG.png")
+	 			no-repeat
+				center
+				center fixed;
+	background-size: cover;
+}
+
+.items_container {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	
+ 	padding: 50px;
+/* 	flex-direction: column; */
+	
+}
+
+.items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	width: 450px;
+	height: 700px;
+	
+	padding: 25px;
+	margin-top: 150px;
+	
+	background-color: rgba(108, 122, 137, 0.8);	
+}
+
+.store_gold {
+	font-size: 25pt;
+	text-align: center;
+}
+
+.button_home {
+	height: 50px;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.button_item {
+ 	background: #532853; 
+/*  	background: rebeccapurple; */ 
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.button_test {
+	background: gold;
+/* 	background: rebeccapurple;*/
+ /* 	background: gold; */
+}
+
+/* ---------- CONTEST ------------ */
+
+.body_contest {
+	background: url("/images/backgrounds/contestBG.jpeg")
+	 			no-repeat
+				center
+				center fixed;
+	background-size: cover;
+}
+
+.nav_container {
+	
+	display: flex;
+	justify-content: end;
+/* 	outline: 5px solid green; */
+}
+
+.title_nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+ 	width: 62%;
+
+	
+/* 	outline: 5px solid purple; */
+}
+
+.winner {
+	font-size: 50pt;
+}
+
+.contest_imgs {
+	display: flex;
+	justify-content: center;
+	
+	padding: 20px;
+}
+
+.medal {
+	margin: 25px;
+    width: 250px;
+    height: 550px;
+    
+     position: relative;
+    animation-name: medal;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+/*     animation-direction: alternate; */ 
+}
+@keyframes medal {
+      0%   {left: 0px; top:-100px;}
+      25%  {left: 200px; top:0px;}
+      50%  {left: 0px; top:0px;}
+      75%  {left: 200px; top:-100px;}
+      100% {left: 0px; top:-100px;}
+}
+
+
+
+
+.img_contest {
+/*     outline: 7px solid red; */
+    margin: 5px;
+    width: 500px;
+    height: 500px;
+    
+    position: relative;
+    animation-name: win;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+
+
+@keyframes win {
+      0%   {left: -150px; top:-150px;}
+      25%  {left: 300px; top:-250px;}
+      50%  {left: 800px; top:0px;}
+      75%  {left: 350px; top:250px;}
+      100% {left: -150px; top:-150px;}
+}
+
+
